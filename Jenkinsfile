@@ -9,7 +9,7 @@ pipeline {
             }
         }
     }
-    stages {
+    
         stage('test') {
             steps {
                 echo "Clarusway_Way to Reinvent Yourself"
@@ -17,8 +17,8 @@ pipeline {
                 echo 'not using shell in the Jenkinsfile'
             }
         }
-    }
-    stages {
+    
+    
         stage('deploy') {
             steps {
                 echo "Clarusway_Way to Reinvent Yourself"
@@ -26,5 +26,5 @@ pipeline {
                 echo 'not using shell in the Jenkinsfile'
             }
         }
-    }
+    
 }
